@@ -15,10 +15,7 @@ mkdir -p $SOFTWARE_DIRECTORY/src
 cd $SOFTWARE_DIRECTORY/src
 wget --output-document sratoolkit.tar.gz https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-centos_linux64.tar.gz
 tar -vxzf sratoolkit.tar.gz
-cd  sratoolkit
-./configure --prefix=$SOFTWARE_DIRECTORY/ --with-pmix --without-verbs
-make -j all
-make install
+cd sratoolkit.3.2.0-centos_linux64
 
 
 # Creating modulefile
