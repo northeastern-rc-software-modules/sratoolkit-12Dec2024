@@ -36,7 +36,7 @@ echo "\"" >> $SOFTWARE_VERSION
 echo "" >> $SOFTWARE_VERSION
 echo "conflict	 $SOFTWARE_NAME" >> $SOFTWARE_VERSION
 echo "prepend-path	 PATH $SOFTWARE_DIRECTORY/bin" >> $SOFTWARE_VERSION
-echo "prepend-path       PATH $SOFTWARE_DIRECTORY/src/sratoolkit-stable_12Dec2024/src" >> $SOFTWARE_VERSION
+echo "prepend-path       PATH $SOFTWARE_DIRECTORY/src/sratoolkit.3.2.0-centos_linux64/bin" >> $SOFTWARE_VERSION
 echo "prepend-path       LIBRARY_PATH $SOFTWARE_DIRECTORY/lib" >> $SOFTWARE_VERSION
 echo "prepend-path       LD_LIBRARY_PATH $SOFTWARE_DIRECTORY/lib" >> $SOFTWARE_VERSION
 echo "prepend-path       CPATH $SOFTWARE_DIRECTORY/include" >> $SOFTWARE_VERSION
